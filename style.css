@@ -1,0 +1,65 @@
+body {
+	background: black;
+}
+
+.mainContainer {
+	display: grid;
+	row-gap: 10vh;
+}
+
+.upperContainer {
+	aspect-ratio: 16 / 9;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+.forPFP {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.PFP {
+	width: 85%;
+	border-radius: 20%;
+}
+
+.descriptionPFP {
+	text-align: center;
+	color: gray;
+}
+
+.lowerContainer {
+	aspect-ratio: 16 / 9;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+	margin-left: 130px;
+	margin-top: 100px;
+	display: flex;
+	font-family: "Roboto", sans-serif;
+}
+
+li {
+	margin-left: 100px; 
+	margin-top: -100px;
+}
+
+p {
+	margin-bottom: 21px;
+	margin-top: -40px;
+	font-family: "Roboto", sans-serif;
+}
+
+/* Цвета */
+.whiteColor {
+	color: white;
+}
+
+.lightGrayColor {
+	color: lightslategray;
+}
