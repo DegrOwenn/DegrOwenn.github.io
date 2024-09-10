@@ -55,6 +55,10 @@ p {
 	font-family: "Roboto", sans-serif;
 }
 
+a:hover {
+	cursor:pointer;
+}
+
 /* Цвета */
 .whiteColor {
 	color: white;
