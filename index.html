@@ -1,6 +1,18 @@
 <head>
 	<link rel="stylesheet" href="./style.css">
 </head>
+
+<script>
+	function copy(that){
+	var inp =document.createElement('input');
+	document.body.appendChild(inp)
+	inp.value =that.textContent
+	inp.select();
+	document.execCommand('copy',false);
+	inp.remove();
+	}
+</script>
+
 <body>
 	<div class="mainContainer">
 		<div class="upperContainer">
@@ -36,19 +48,19 @@
 				<li>
 					<ul>
 						<h3 class="whiteColor" style="font-size: 40px">Email</h3>
-						<a href="mailto:petr0720volkanin@gmail.com" class="lightGrayColor" class="underText" style="font-size: 30px">petr0720volkanin@gmail.com</a>
+						<p><a href="mailto:petr0720volkanin@gmail.com" class="lightGrayColor" class="underText" style="font-size: 30px">petr0720volkanin@gmail.com</a></p>
 					</ul>
 					<ul>
 						<h3 class="whiteColor" style="font-size: 40px">Telegram</h3>
-						<a href="https://t.me/degrowenn" class="lightGrayColor" class="underText" style="font-size: 30px">@degrowenn</a>
+						<p><a href="https://t.me/degrowenn" class="lightGrayColor" class="underText" style="font-size: 30px">@degrowenn</a></p>
 					</ul>
 					<ul>
 						<h3 class="whiteColor" style="font-size: 40px">GitHub</h3>
-						<a href="https://github.com/DegrOwenn" class="lightGrayColor" class="underText" style="font-size: 30px">DegrOwenn</a>
+						<p><a href="https://github.com/DegrOwenn" class="lightGrayColor" class="underText" style="font-size: 30px">DegrOwenn</a></p>
 					</ul>
 					<ul>
 						<h3 class="whiteColor" style="font-size: 40px">Discord</h3>
-						<a class="lightGrayColor" class="underText" style="font-size: 30px">degrowenn</a>
+						<p><a class="lightGrayColor" class="underText" style="font-size: 30px" onclick="copy(this)"><u>degrowenn</u></a></p>
 					</ul>
 				</li>
 			</div>
